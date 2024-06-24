@@ -1,0 +1,156 @@
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 350px;
+}
+
+#header .h_inner {
+    height: 100vh;
+
+    width: 100%;
+    padding: 100px 0 0 0;
+    text-align: center;
+    background: var(--primary-color);
+}
+
+#header .h_inner .logo {
+    margin: 0 0 48px 0;
+    position: relative;
+
+}
+
+#header .h_inner .logo::before {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+
+    transform: translate(-50%, 0);
+
+    width: 32px;
+    height: 1px;
+    background: var(--white-color);
+}
+
+
+#header .h_inner .logo img {
+    width: 250px;
+    height: auto;
+}
+
+#header .h_inner .gnb>ul>li {
+    margin: 0 0 32px 0;
+}
+
+#header .h_inner .gnb>ul>li>a {
+    font-size: 24px;
+    color: var(--white-color);
+}
+
+
+/* //헤더 끝// */
+
+
+.ht {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 99;
+}
+
+.ht .inner {
+    max-width: 1570px;
+    margin: 0 auto 0 350px;
+    padding: 0 80px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    height: 40px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid var(--line-color);
+    transition: 0.3s;
+}
+
+.ht:hover .inner {
+    transition: 0.3s;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.ht .inner .site {
+    color: var(--white-color);
+}
+
+.ht .inner .site .lnk {
+    position: absolute;
+    display: none;
+}
+
+.ht .inner .utils {
+    color: var(--white-color);
+}
+
+.ht .inner .utils>ul {
+    display: flex;
+    gap: 20px;
+}
+
+
+.ht .inner .lang {
+    color: var(--white-color);
+}
+
+.ht .inner .lang .lnk {
+    display: none;
+    position: absolute;
+}
+
+
+
+#main_visual {
+    overflow: hidden;
+}
+
+#main_visual .main_visual_slide {
+    max-width: 1570px;
+    width: 100%;
+    margin: 0 0 0 350px;
+
+}
+
+#main_visual .main_visual_slide .itm {
+    height: 100vh;
+
+}
+
+#main_visual .main_visual_slide .itm01 {
+    background-image: url(../images/main_visual/main_visual_slide_01.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#main_visual .main_visual_slide .itm02 {
+    background-image: url(../images/main_visual/main_visual_slide_02.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover
+}
+
+#main_visual .main_visual_slide .itm03 {
+    background-image: url(../images/main_visual/main_visual_slide_03.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover
+}
+
+#main_visual .main_visual_slide .itm04 {
+    background-image: url(../images/main_visual/main_visual_slide_04.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover
+}

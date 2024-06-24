@@ -1,0 +1,17 @@
+:root {
+    --primary-color: #312622;
+    --scondary-color: #fff3f6;
+    /* --tertiary-color: #ffebf2; */
+    --back-color: #f9f9f9;
+    --body-color: #333333;
+    --white-color: #ffffff;
+    --line-color: #dddddd;
+}
+
+
+
+.inner {
+    max-width: 1410px;
+    width: 100%;
+    margin: 0 80px 0 calc(350px + 80px);
+}
