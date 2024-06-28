@@ -16,3 +16,9 @@
     width: 100%;
     margin: 0 80px 0 calc(350px + 80px);
 }
+.tit{
+    max-width: 1410px;
+    width: 100%;
+    margin: 0 80px 0 calc(350px + 80px);
+    text-align: center;
+}

@@ -9,15 +9,13 @@
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/swiper-bundle.css">
-    <link rel="stylesheet" href="./css/jquery.mb.YTPlayer.min.css">
-    <link rel="stylesheet" href="./css/jquery.fullpage.css">
+    <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/style.css?ver=1.0">
 
 
     <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/slick.min.js"></script>
     <script src="./js/swiper-bundle.min.js"></script>
-    <script src="./js/jquery.mb.YTPlayer.min.js"></script>
-    <script src="./js/jquery.fullpage.js"></script>
     <script src="./js/custom.js"></script>
 
 </head>
@@ -139,9 +137,6 @@
             <div class="inner">
                 <div class="tit">
                     <h3>OFFERS</h3>
-                    <div class="more">
-                        <a href="">view more<i class="xi-angle-right"></i></a>
-                    </div>
                 </div>
                 <div class="swiper main_offers_slide">
                     <div class="swiper-wrapper">
@@ -274,8 +269,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                </div>
+                <div class="more">
+                    <a href="">view more<i class="xi-angle-right"></i></a>
+                </div>
+                <div class="arrows">
+                    <button class="prev"><i class="xi-angle-left"></i></button>
+                    <button class="next"><i class="xi-angle-right"></i></button>
                 </div>
             </div>
         </section>
@@ -289,14 +289,110 @@
                         <a href="">view more
                             <i class="xi-angle-right"></i>
                         </a>
-                        
                     </div>
                 </div>
             </div>
-       
         </section>
-    </main>
 
+        <section id="main_facility">
+            <h2 class="blind">메인 시설안내</h2>
+            <div class="tit">
+                <h3>FACILITIES</h3>
+                <p>메종드 글래드 제주에 다양한 시설을 경험해보세요</p>
+            </div>
+            <div class="inner">
+                <div class="swiper left_slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide itm">
+                            <img src="./images/main_facility/main_facility-01.png" alt="">
+                        </div>
+                        <div class="swiper-slide itm">
+                            <img src="./images/main_facility/main_facility-02.png" alt="">
+                        </div>
+                        <div class="swiper-slide itm">
+                            <img src="./images/main_facility/main_facility-03.png" alt="">
+                        </div>
+                        <div class="swiper-slide itm">
+                            <img src="./images/main_facility/main_facility-04.png" alt="">
+                        </div>
+                        <div class="swiper-slide itm">
+                            <img src="./images/main_facility/main_facility-05.png" alt="">
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <section id="main_dining">
+            <h2 class="blind">메인 다이닝 안내</h2>
+            <div class="tit">
+                <h3>DINING & BAR</h3>
+            </div>
+            <div class="inner">
+
+            </div>
+        </section>
+
+        <section id="main_location">
+            <h2 class="blind">메인 주소 및 지도찾기</h2>
+            <div class="tit">
+                <h3>LOCATION</h3>
+            </div>
+            <div class="find"></div>
+            <div class="map"></div>
+        </section>
+
+    </main>
+    <footer id="footer">
+        <div class="inner">
+            <div class="ft">
+                <div class="logo">
+                    <a href="">
+                        <img src="./images/logo/logo_glad_jeju_white.svg" alt="">
+                    </a>
+                </div>
+                <div class="app">
+                    <a href=""><img src="./images/footer/glad-qr-appstore.png" alt=""></a>
+                    <a href=""><img src="./images/footer/glad-qr-googleplay.png" alt=""></a>
+                </div>
+            </div>
+            <div class="fb">
+                <ul>
+                    <li class="b"><a href="">개인정보 처리방침</a></li>
+                    <li><a href="">영상정보처리기기 운영·관리방침</a></li>
+                    <li><a href="">홈페이지 이용약관</a></li>
+                    <li><a href="">숙박약관</a></li>
+                    <li><a href="">회사소개</a></li>
+                    <li><a href="">호텔소개</a></li>
+                    <li><a href="">채용정보</a></li>
+                    <li><a href="">고객문의</a></li>
+                    <li><a href="">구매발주</a></li>
+                    <li><a href="">지점별 연락처</a></li>
+                    <li><a href="">앱다운로드</a></li>
+                </ul>
+                <div class="adress">
+                    <dl>
+                        <dd>주소: 제주특별자치도 제주시 노연로 80</dd>
+                        <dd>대표이사: 서동윤</dd>
+                        <dd>사업자등록번호: 616-81-01370</dd>
+                    </dl>
+                    <dl>
+                        <dd>통신판매신고: 제주연동-0035 호</dd>
+                        <dd>고객문의: 064.747.5000</dd>
+                    </dl>
+                    <div class="sns">
+                        <ul>
+                            <li><a href=""><img src="./images/footer/icon_sns_facebook_bk.png" alt=""></a></li>
+                            <li><a href=""><img src="./images/footer/icon_sns_instagram_bk.png" alt=""></a></li>
+                            <li><a href=""><img src="./images/footer/icon_sns_youtube_bk.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
 </body>
 
 </html>
