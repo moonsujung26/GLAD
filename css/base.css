@@ -6,7 +6,7 @@
     --body-color: #333333;
     --white-color: #ffffff;
     --line-color: #dddddd;
-    --text-muted:#999;
+    --text-muted: #999;
 }
 
 
@@ -16,9 +16,22 @@
     width: 100%;
     margin: 0 80px 0 calc(350px + 80px);
 }
-.tit{
+
+.tit {
     max-width: 1410px;
     width: 100%;
     margin: 0 80px 0 calc(350px + 80px);
     text-align: center;
+}
+
+.tit h3 {
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0 0 40px 0;
+    font-weight: 500;
+    color: var(--body-color);
+}
+
+.tit p {
+    color: var(--body-color);
 }
